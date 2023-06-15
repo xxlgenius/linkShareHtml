@@ -1,0 +1,92 @@
+.mainbody {
+  background-color: #e2e1f9;
+}
+.container {
+  /* background-color:azure; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px; /* 添加下边距 */
+  margin-top: 20px; /* 添加上边距 */
+}
+.avatar-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px; /* 添加下边距 */
+  margin-top: 20px; /* 添加上边距 */
+}
+.content-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 70px; /* 添加下边距 */
+    /* margin-top: 20px; 添加上边距 */
+}
+.title-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1000px;
+  /* margin-bottom: 50px; 添加下边距 */
+  margin-top: 20px; /* 添加上边距 */
+}
+.border-box {
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  /* 上下右左 */
+  padding: 20px 0px;
+  border-radius: 20px;
+  background: #e2e1f9;
+  box-shadow:  23px 23px 55px #b0b0c2,-23px -23px 55px #ffffff;
+  margin-bottom: 30px;
+}
+
+.border-box-converse {
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  /* 上下右左 */
+  padding: 20px 0px;
+  border-radius: 20px;
+  background: #e2e1f9;
+  box-shadow: 23px 23px 55px #b0b0c2, -23px -23px 55px #ffffff;
+
+}
+
+.avatar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 2px solid #000;
+
+  box-shadow:  23px 23px 55px #a592c1,
+               -23px -23px 55px #ffe4ff;
+
+  margin-top: 50px; /* 添加上边距 */
+}
+.custom-button {
+  border-radius: 60px;
+  background: #d3bbf7;
+  box-shadow:  23px 23px 55px #a592c1,
+               -23px -23px 55px #ffe4ff;
+  color: black;
+  padding: 40px 150px;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
